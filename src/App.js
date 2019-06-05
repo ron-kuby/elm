@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import logo from './ELM.png'
+import Heading from './components/Heading';
+import Bars from './components/Bars/Bars'
+import { ButtonWrapper } from './components/Button/Button';
+import '@zendeskgarden/react-grid/dist/styles.css';
+
+import { ThemeProvider } from '@zendeskgarden/react-theming';
+import { Grid, Row, Col } from '@zendeskgarden/react-grid';
+
+import styled from 'styled-components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        <Heading>
+          <img src={logo}></img>
+        </Heading>
+        <Bars/>
+      </div>
+    </ThemeProvider>
   );
 }
 
