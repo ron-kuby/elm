@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import logo from './ELM.png'
 import Heading from './components/Heading';
-import Bars from './components/Bars/Bars'
+import Bars from './components/Bars/Bars';
+import Speaker from './components/Speaker/Speaker'
 import { ButtonWrapper } from './components/Button/Button';
 import '@zendeskgarden/react-grid/dist/styles.css';
 
@@ -19,6 +20,7 @@ function App() {
           <img src={logo}></img>
         </Heading>
         <Bars/>
+        <Speaker/>
       </div>
     </ThemeProvider>
   );

@@ -16,7 +16,7 @@ export const BarsComponent = styled.div`
     height: 30px;
     width: 40px;
     position: absolute;
-    left: 92vw;
+    left: 88vw;
     top: 23px;
 
     .bar{

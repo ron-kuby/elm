@@ -6,16 +6,16 @@ import { BarsComponent } from './bars.styles.js'
 const Bars = () => {
     return (
         <BarsComponent>
-            <div class='bar'></div>
-            <div class='bar'></div>
-            <div class='bar'></div>
-            <div class='bar'></div>
-            <div class='bar'></div>
-            <div class='bar'></div>
-            <div class='bar'></div>
-            <div class='bar'></div>
-            <div class='bar'></div>
-            <div class='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
+            <div className='bar'></div>
         </BarsComponent>
     )
 }
