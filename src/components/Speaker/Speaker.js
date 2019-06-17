@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import gif from '../../elmloop.gif';
+import gif from '../../elmloop1.gif';
 
 import { SpeakerComponent } from './speaker.styles';
 
