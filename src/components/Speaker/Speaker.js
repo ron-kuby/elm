@@ -1,9 +1,7 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
 import gif from '../../elmloopslower.gif';
 
 import { SpeakerComponent, SpeakerTitle, SpeakerOffsetOne, SpeakerOffsetTwo, SpeakerOffsetThree, SpeakerOffsetFour } from './speaker.styles';
-import { directive } from '@babel/types';
 
 const Speaker = () => {
 
