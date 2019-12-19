@@ -11,7 +11,7 @@ export const SpeakerTitle = styled.h2`
          position: absolute;
          top: 40vh;
          right: 11.7vw;
-         font-family: "Spicy Rice", cursive;
+         font-family: "Mystery Quest", cursive;
          font-size: 4rem;
          line-height: 4rem;
          color: #fcf2ea;
@@ -19,7 +19,7 @@ export const SpeakerTitle = styled.h2`
          z-index: 100;
          opacity: 0;
          background-color: rgba(179, 154, 117, 0.2);
-         animation: spinIn 0.8s ease-in 0.8s forwards;
+         animation: spinIn 0.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.8s forwards;
 
          @keyframes spinIn {
            0% {
@@ -27,8 +27,8 @@ export const SpeakerTitle = styled.h2`
              transform: rotate(0deg) scale(0);
            }
 
-           75% {
-             transform: rotate(540deg) scale(1.2);
+           90% {
+             transform: rotate(648deg) scale(1.1);
            }
 
            100% {
@@ -47,14 +47,14 @@ export const SpeakerOffsetOne = styled.h2`
          position: absolute;
          top: 40.5vh;
          right: 11.5vw;
-         font-family: "Spicy Rice", cursive;
+         font-family: "Mystery Quest", cursive;
          font-size: 4rem;
          line-height: 4rem;
          color: #638222;
          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
          z-index: 90;
          opacity: 0;
-         animation: spinIn 0.8s ease-in 0.8s forwards;
+         animation: spinIn 0.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.8s forwards;
 
          @keyframes spinIn {
            0% {
@@ -62,8 +62,8 @@ export const SpeakerOffsetOne = styled.h2`
              transform: rotate(0deg) scale(0);
            }
 
-           75% {
-             transform: rotate(540deg) scale(1.2);
+           90% {
+             transform: rotate(648deg) scale(1.1);
            }
 
            100% {
@@ -82,14 +82,14 @@ export const SpeakerOffsetTwo = styled.h2`
          position: absolute;
          top: 40.9vh;
          right: 11.3vw;
-         font-family: "Spicy Rice", cursive;
+         font-family: "Mystery Quest", cursive;
          font-size: 4rem;
          line-height: 4rem;
          color: #6e513f;
          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
          z-index: 80;
          opacity: 0;
-         animation: spinIn 0.8s ease-in 0.8s forwards;
+         animation: spinIn 0.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.8s forwards;
 
          @keyframes spinIn {
            0% {
@@ -97,8 +97,8 @@ export const SpeakerOffsetTwo = styled.h2`
              transform: rotate(0deg) scale(0);
            }
 
-           75% {
-             transform: rotate(540deg) scale(1.2);
+           90% {
+             transform: rotate(648deg) scale(1.1);
            }
 
            100% {
@@ -117,14 +117,14 @@ export const SpeakerOffsetThree = styled.h2`
          position: absolute;
          top: 41.1vh;
          right: 11.1vw;
-         font-family: "Spicy Rice", cursive;
+         font-family: "Mystery Quest", cursive;
          font-size: 4rem;
          line-height: 4rem;
          color: #ffc09f;
          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
          z-index: 70;
          opacity: 0;
-         animation: spinIn 0.8s ease-in 0.8s forwards;
+         animation: spinIn 0.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.8s forwards;
 
          @keyframes spinIn {
            0% {
@@ -132,8 +132,8 @@ export const SpeakerOffsetThree = styled.h2`
              transform: rotate(0deg) scale(0);
            }
 
-           75% {
-             transform: rotate(540deg) scale(1.2);
+           90% {
+             transform: rotate(648deg) scale(1.1);
            }
 
            100% {
@@ -152,14 +152,14 @@ export const SpeakerOffsetFour = styled.h2`
          position: absolute;
          top: 41.5vh;
          right: 10.9vw;
-         font-family: "Spicy Rice", cursive;
+         font-family: "Mystery Quest", cursive;
          font-size: 4rem;
          line-height: 4rem;
          color: #ffee93;
          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
          z-index: 60;
          opacity: 0;
-         animation: spinIn 0.8s ease-in 0.8s forwards;
+         animation: spinIn 0.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.8s forwards;
 
          @keyframes spinIn {
            0% {
@@ -167,8 +167,8 @@ export const SpeakerOffsetFour = styled.h2`
              transform: rotate(0deg) scale(0);
            }
 
-           75% {
-             transform: rotate(540deg) scale(1.2);
+           90% {
+             transform: rotate(648deg) scale(1.1);
            }
 
            100% {
